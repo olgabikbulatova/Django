@@ -1,0 +1,19 @@
+{%extends 'base.html'%}
+{%block content%}
+<div class="row">
+    <div class="col-md-6 col-xl-3">
+{%for shoe in shoes%}
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src= {{shoe.img}} alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">{{shoe.name}}</h2>
+                <p class="card-text">{{shoe.text}}</p>
+                <p class="card-text"> Цена : {{shoe.price}} рублей </p>
+                <a href="#" class="btn btn-primary">Купить</a>
+                <a href="#" class="btn btn-primary">Подробнее</a>
+            </div>
+        </div>
+{%endfor%}
+    </div>
+</div>
+{%endblock%}

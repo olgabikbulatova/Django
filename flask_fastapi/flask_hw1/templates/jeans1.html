@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+{%block content%}
+{%for cloth in clothes%}
+        {% if cloth.name == 'джинсы'%}
+        <img class="card-img-top" src= {{cloth.img}} alt="Card image cap">
+        <h2 class="card-title">{{cloth.name}}</h2>
+        <p class="card-text">{{cloth.text}}</p>
+        <p class="card-text"> Цена : {{cloth.price}} рублей </p>
+        <a href="#" class="btn btn-primary">Купить</a>
+    {%endif%}
+{%endfor%}
+    </div>
+</div>
+{%endblock%}
