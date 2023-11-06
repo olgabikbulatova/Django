@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+
+<div class="row">
+{% for student in students %}
+<p class="col-12 col-md-6">Имя : {{student.name}}, {{student.surname}}<br>
+факультет: {{student.faculty.fac_name}}</p>
+{% endfor %}
+</div>
+
+</body>
+</html>
