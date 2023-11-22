@@ -1,0 +1,15 @@
+
+{%extends 'base.html'%}
+{%block content%}
+{%for new in news%}
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.vladtime.ru/uploads/posts/2018-05/1527186902_df958bc1d296d0bce3981c9798d6c689.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h2 class="card-title">{{new.head}}</h2>
+        <p class="card-text">{{new.shortcut}}</p>
+        <p>{{new.publish_date}}</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+{%endfor%}
+{%endblock%}

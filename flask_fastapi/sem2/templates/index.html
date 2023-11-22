@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>seminar2 Flask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <img src="{{ url_for('static', filename='image/foto.jpg') }}" alt="Моё фото" width="600">
+        <p>
+            <a href="{{ url_for('upload') }}"> ссылка на страницу загрузки </a>
+        </p>
+    </div>
+    <a href="{{ url_for('login') }}">
+    <button class="btn btn-primary" type="submit">Login</button>
+</a>
+
+    <a href="{{ url_for('text') }}">
+    <button class="btn btn-primary" type="submit">Text</button>
+</a>
+    <a href="{{ url_for('calc') }}">
+    <button class="btn btn-primary" type="submit">Calculator</button>
+</a>
+    <a href="{{ url_for('age') }}">
+    <button class="btn btn-primary" type="submit">Ager</button>
+</a>
+</a>
+    <a href="{{ url_for('qwadro') }}">
+    <button class="btn btn-primary" type="submit">qwadro</button>
+</a>
+
+<a href="{{ url_for('name') }}">
+    <button class="btn btn-primary" type="submit">name</button>
+</a>
+
+</body>
+</html>

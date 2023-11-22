@@ -20,7 +20,7 @@ shoes = [
 
 @app.route('/')
 def get_main():
-    return render_template('main.html')
+    return render_template('index.html')
 
 
 @app.route('/clothes/')
