@@ -35,9 +35,12 @@ orders = sqlalchemy.Table(
     "orders",
     metadata,
     sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
-    sqlalchemy.Column("user_id", sqlalchemy.Integer, sqlalchemy.ForeignKey('users.id')),
-    sqlalchemy.Column("item_id", sqlalchemy.Integer, sqlalchemy.ForeignKey('items.id')),
-    sqlalchemy.Column("date", sqlalchemy.Date)
+    sqlalchemy.Column("user_id", sqlalchemy.Integer, sqlalchemy.ForeignKey("users.id")),
+    sqlalchemy.Column("item_id", sqlalchemy.Integer, sqlalchemy.ForeignKey("items.id")),
+    sqlalchemy.Column("create_date", sqlalchemy.DateTime),
+    sqlalchemy.Column("status", sqlalchemy.String)
 )
+
+
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 metadata.create_all(engine)

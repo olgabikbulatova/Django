@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime
 from pydantic import BaseModel, Field
 
 
@@ -25,13 +25,15 @@ class Item(BaseModel):
 
 
 class OrderIn(BaseModel):
-    date: date = Field(format="%Y-%m-%d")
     user_id: int
     item_id: int
+    create_date: datetime = Field(default=datetime.now())
+    status: str = Field(default="created")
 
 
 class Order(BaseModel):
     id: int
-    date: date = Field(format="%Y-%m-%d")
     user_id: int
     item_id: int
+    create_date: datetime = Field(default=datetime.now())
+    status: str = Field(default="created")

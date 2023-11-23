@@ -1,7 +1,9 @@
 from typing import List
 from fastapi import APIRouter, HTTPException
 from db import orders, database
-from models import Order, OrderIn, User, Item
+from models import Order, OrderIn
+
+
 router = APIRouter()
 
 
@@ -11,23 +13,25 @@ async def get_orders():
     return await database.fetch_all(query)
 
 
-# @router.get("/orders/{user_id}", response_model=List[Order])
-# async def read_order(user_id: int):
-#     query = orders.select().where(orders.c.user.user_id == user_id)
-#     return await database.fetch_all(query)
+@router.get("/orders/{user_id}", response_model=List[Order])
+async def read_order(user_id: int):
+    query = orders.select().where(orders.c.user_id == user_id)
+    return await database.fetch_all(query)
 
 
 @router.get("/orders/{order_id}", response_model=Order)
 async def read_order(order_id: int):
-    query = orders.select().where(orders.c.order.id == order_id)
+    query = orders.select().where(orders.c.id == order_id)
+    if not query:
+        HTTPException(status_code=404, detail="order not found")
     return await database.fetch_one(query)
 
 
 @router.post("/orders/", response_model=Order)
-async def add_order(user: OrderIn):
-    query = orders.insert().values(date=orders.date, user_id=orders.user_id, item_id=orders.item_id)
+async def add_order(order: OrderIn):
+    query = orders.insert().values(user_id=order.user_id, item_id=order.item_id, create_date=order.date, status=order.status)
     last_record_id = await database.execute(query)
-    return {**user.dict(), "id": last_record_id}
+    return {**order.dict(), "id": last_record_id}
 
 
 @router.put("/orders/{order_id}", response_model=Order)

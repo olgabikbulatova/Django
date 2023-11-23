@@ -18,8 +18,8 @@ async def shutdown():
     await database.disconnect()
 
 app.include_router(users.router, tags=['users'])
-app.include_router(orders.router, tags=['orders'])
 app.include_router(items.router, tags=['items'])
+app.include_router(orders.router, tags=['orders'])
 
 
 if __name__ == '__main__':
@@ -29,3 +29,4 @@ if __name__ == '__main__':
         port=8000,
         reload=True
     )
+    
