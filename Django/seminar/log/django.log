@@ -1,0 +1,124 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2165
+"GET /game/cubes/ HTTP/1.1" 200 1
+"GET /game/cubes/ HTTP/1.1" 200 1
+"GET /game/cubes/ HTTP/1.1" 200 1
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/headtails/ HTTP/1.1" 200 4
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2165
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/ HTTP/1.1" 200 482
+Not Found: /games/headtails
+"GET /games/headtails HTTP/1.1" 404 2228
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /games/headtails
+"GET /games/headtails HTTP/1.1" 404 2228
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /games/headtails
+"GET /games/headtails HTTP/1.1" 404 2228
+Not Found: /games/
+"GET /games/ HTTP/1.1" 404 2201
+Not Found: /games
+"GET /games HTTP/1.1" 404 2198
+"GET /game HTTP/1.1" 301 0
+"GET /game/ HTTP/1.1" 200 488
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /game/{{url_for('headtails')}}
+"GET /game/%7B%7Burl_for('headtails')%7D%7D HTTP/1.1" 404 2897
+"GET /game/ HTTP/1.1" 200 475
+"GET /game/headtails/ HTTP/1.1" 200 4
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/ HTTP/1.1" 200 461
+"GET /game/headtails/ HTTP/1.1" 200 4
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/ HTTP/1.1" 200 456
+"GET /game/ HTTP/1.1" 200 456
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/ HTTP/1.1" 200 471
+"GET /game/about HTTP/1.1" 301 0
+"GET /game/about/ HTTP/1.1" 200 345
+Not Found: /game/about/index
+"GET /game/about/index HTTP/1.1" 404 2993
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2165
+"GET /game/ HTTP/1.1" 200 471
+"GET /game/about/ HTTP/1.1" 200 340
+"GET /game/about/ HTTP/1.1" 200 340
+"GET /game/about/ HTTP/1.1" 200 340
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/about/ HTTP/1.1" 200 347
+"GET /game/ HTTP/1.1" 200 471
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\seminar\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\obikb\PycharmProjects\Django\seminar\seminar\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/cubes HTTP/1.1" 301 0
+"GET /game/cubes/ HTTP/1.1" 200 1
+"GET /game/ HTTP/1.1" 200 471
+"GET /game/ HTTP/1.1" 200 471
+"GET /game/headtails/ HTTP/1.1" 200 4
+"GET /game/cubes/ HTTP/1.1" 200 1
+"GET /game/hundred HTTP/1.1" 301 0
+"GET /game/hundred/ HTTP/1.1" 200 2
+"GET /game/about/ HTTP/1.1" 200 347
+"GET /game/ HTTP/1.1" 200 471
+C:\Users\obikb\PycharmProjects\Django\seminar\seminar\settings.py changed, reloading.
+INFO 2023-11-28 00:03:36,890 autoreload 5028 9804 Watching for file changes with StatReloader
+INFO 2023-11-28 00:03:51,157 views 5028 6832 Index page accessed
+INFO 2023-11-28 00:03:51,159 basehttp 5028 6832 "GET /game/ HTTP/1.1" 200 471
+INFO 2023-11-28 00:03:52,030 views 5028 6832 Index page accessed
+INFO 2023-11-28 00:03:52,031 basehttp 5028 6832 "GET /game/ HTTP/1.1" 200 471
+INFO 2023-11-28 00:03:55,694 views 5028 6832 About page accessed
+INFO 2023-11-28 00:03:55,696 basehttp 5028 6832 "GET /game/about/ HTTP/1.1" 200 347
