@@ -4,6 +4,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from random import randint, choice
 import logging
+from .models import Headtails
+
 
 logger = logging.getLogger(__name__)
 
@@ -39,7 +41,22 @@ def about(request):
 
 
 def head_tails(request):
-    return HttpResponse(f'{choice(["Head","Tail"])}')
+    side = choice(["Head","Tail"])
+    coin = Headtails(result=side)
+    coin.save()
+    return HttpResponse(f'Поздравляю! у вас {side}')
+
+
+def headtails_values(request):
+    value = Headtails.values()
+    lst = list(i.result for i in value)
+    count_h = 0
+    count_t = 0
+    for i in lst:
+        if i == 'Head':
+            count_h += 1
+        else: count_t += 1
+    return HttpResponse(f'Статистика последних пяти бросков "Head"  выпало {count_h} раз, "Tail" -  {count_t} ')
 
 
 def cubes(request):

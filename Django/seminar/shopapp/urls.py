@@ -16,11 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import index, client, product, order, del_client, find_client, add_client,update_client,new_order
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('game/', include('gameapp.urls')),
-    path('blog/', include('blogapp.urls')),
-    path('shop/', include('shopapp.urls')),
+    path('', index, name='index'),
+    path('client', client, name='client'),
+    path('product', product, name='product'),
+    path('order', order, name='order'),
+    path('del_client/<int:id>/', del_client, name='del_client'),
+    path('client/<int:id>/', find_client, name='find_client'),
+    path('add_client', add_client, name='add_client'),
+    path('client_upd/<int:id>/', update_client, name='upd_client'),
+    path('new_order', new_order, name='new_order'),
 ]
