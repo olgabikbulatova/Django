@@ -1,0 +1,13 @@
+{% extends 'gameapp/base.html' %}
+{% block title %}Обо мне{% endblock %}
+
+{% block content %}
+<h1>Это проект в рамках семинаров курса по Django</h1>
+        <p>Меня зовут {{name}}, я люблю:</p>
+        <ul>
+        {% for item in my_list %}
+            <li>{{ item }}</li>
+        {% endfor %}
+        </ul>
+        <br/><a href='/game'>На главную.</a>
+{% endblock %}

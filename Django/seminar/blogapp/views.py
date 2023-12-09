@@ -27,11 +27,27 @@ def author(request):
             lastname=f'AAA {i}',
             email=f'{i}@aaa.ru',
             bio=f'AAA {i}',
-            bday='01.01.1900'
+            bday='1900-01-19'
         )
         lst.append(autr)
+        autr.save()
     return HttpResponse(lst)
 
 
 def post(request):
+    for i in range(10):
+        for y in range(5):
+            post = Post(
+                title=f'aaa{y+1}',
+                content=f'xxxx xxxx{y}',
+                author_id=i + 1,
+            )
+            post.save()
     return HttpResponse('post')
+
+
+def a_post(request, author_id):
+    name = Author.objects.filter(pk=author_id).first()
+    posts = name.post_set.all()
+    context = {'name': name, 'posts': posts}
+    return render(request, 'blogapp/a_post.html', context)

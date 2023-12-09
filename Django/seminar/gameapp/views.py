@@ -11,33 +11,29 @@ logger = logging.getLogger(__name__)
 
 
 def index(request):
-    html = """
-        <h1>Привет,  в этом разделе будут храниться игры</h1>
-        <p>в некоторые из них можно поиграть уже сейчас:</p>
-        <ul>
-        <li><a href='headtails'>Орел и решка</a></li>
-        <li><a href='cubes'>Кости</a></li>
-        <li><a href='hundred'>Отгадай число</a></li>
-        </ul>
-        <br><a href='about'>подробнее обо мне.</a>
-    """
+    context = {'name': 'olga'}
     logger.info('Index page accessed')
-    return HttpResponse(html)
+    return render(request, "gameapp/index.html", context)
 
 
 def about(request):
-    html = """
-        <h1>Это проект в рамках семинаров курса по Django</h1>
-        <p>Меня зовут Оля, я люблю:</p>
-        <ul>
-        <li>блаблабла</li>
-        <li>блаблабла</li>
-        <li>блаблабла</li>
-        </ul>
-        <br/><a href='/game'>На главную.</a>
-    """
+    my_list = ['apple', 'banana', 'orange']
+    name = 'olga'
+    context = {'my_list': my_list, 'name': name}
     logger.info('About page accessed')
-    return HttpResponse(html)
+    return render(request, "gameapp/about.html", context)
+
+
+def rolls(request, roll):
+    h_t = []
+    cbs = []
+    hnd = []
+    for i in range(roll):
+        h_t.append(choice(["Head","Tail"]))
+        cbs.append(randint(1,6))
+        hnd.append(randint(0,100))
+    context = {'roll': roll, 'h_t': h_t, 'cbs': cbs, 'hnd': hnd}
+    return render(request, 'gameapp/game_result.html', context)
 
 
 def head_tails(request):
@@ -45,6 +41,27 @@ def head_tails(request):
     coin = Headtails(result=side)
     coin.save()
     return HttpResponse(f'Поздравляю! у вас {side}')
+
+
+def game_roll(request, roll):
+    path = str(request).split('/')[2]
+    if path == 'headtails':
+        name = 'орел и решка'
+        game_lst = []
+        for i in range(roll):
+            game_lst.append(choice(["Head","Tail"]))
+    elif path == 'cubes':
+        name = 'кости'
+        game_lst = []
+        for i in range(roll):
+            game_lst.append(randint(1,6))
+    else:
+        name = 'сотня'
+        game_lst = []
+        for i in range(roll):
+            game_lst.append(randint(0,100))
+    context = {'roll': roll, 'game_lst': game_lst, 'name': name}
+    return render(request, 'gameapp/game.html', context)
 
 
 def headtails_values(request):

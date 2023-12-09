@@ -20,11 +20,11 @@ class Author(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
-    add_data = models.DateTimeField(auto_now_add=True)
+    # add_data = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
-    category = models.CharField(max_length=100)
-    vws = models.IntegerField(default=0)
-    status = models.BooleanField(default=False)
+    # category = models.CharField(max_length=100)
+    # vws = models.IntegerField(default=0)
+    # status = models.BooleanField(default=False)
 
     def __str__(self):
         return f'Title is {self.title}'

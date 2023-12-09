@@ -1,0 +1,13 @@
+{% extends 'gameapp/base.html'%}
+
+{% block title %} {{name}} {% endblock %}
+
+{% block content%}
+    <h1>Количество бросков {{roll}}</h1>
+    <ul> {{name}}:
+        {% for item in game_lst %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <br><a href='/game'>На главную</a>
+{% endblock%}

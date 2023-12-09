@@ -1,0 +1,24 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %} Продукты {{name.name}}{% endblock %}
+
+{% block content%}
+    <h1>Уважаемый {{name.name}} за все время пользования магазином Вы заказывали:</h1>
+    <ul> список продуктов за последние 7 дней:
+        {% for prod in w_prod %}
+        <li>{{prod.name}}</li>
+        {%endfor%}
+    </ul>
+    <ul> список продуктов за последние 30 дней:
+            {% for prod in m_prod %}
+            <li>{{prod.name}}</li>
+            {%endfor%}
+        </ul>
+    <ul> список продуктов за последний год:
+            {% for prod in y_prod %}
+            <li>{{prod.name}}</li>
+            {%endfor%}
+        </ul>
+    <br>
+    <br><a href='/shop'>На главную</a>
+{% endblock%}

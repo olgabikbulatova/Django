@@ -9575,3 +9575,1915 @@ INFO 2023-12-03 21:01:12,175 autoreload 10628 10052 Watching for file changes wi
 INFO 2023-12-03 21:04:30,051 autoreload 10628 10052 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\models.py changed, reloading.
 INFO 2023-12-03 21:04:30,883 autoreload 11696 13380 Watching for file changes with StatReloader
 INFO 2023-12-03 21:04:40,813 basehttp 11696 19084 "GET /shop/new_order HTTP/1.1" 200 175
+INFO 2023-12-09 17:17:15,255 autoreload 6260 27140 Watching for file changes with StatReloader
+WARNING 2023-12-09 17:17:23,100 log 6260 5656 Not Found: /
+WARNING 2023-12-09 17:17:23,102 basehttp 6260 5656 "GET / HTTP/1.1" 404 2375
+WARNING 2023-12-09 17:17:23,285 log 6260 5656 Not Found: /favicon.ico
+WARNING 2023-12-09 17:17:23,291 basehttp 6260 5656 "GET /favicon.ico HTTP/1.1" 404 2426
+INFO 2023-12-09 17:24:40,794 autoreload 6260 27140 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:24:42,486 autoreload 15724 26056 Watching for file changes with StatReloader
+INFO 2023-12-09 17:25:09,719 autoreload 15724 26056 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:25:11,326 autoreload 18064 12688 Watching for file changes with StatReloader
+INFO 2023-12-09 17:25:19,773 autoreload 18064 12688 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:25:21,474 autoreload 8112 24644 Watching for file changes with StatReloader
+WARNING 2023-12-09 17:26:53,214 log 8112 24600 Not Found: /
+WARNING 2023-12-09 17:26:53,218 basehttp 8112 24600 "GET / HTTP/1.1" 404 2375
+INFO 2023-12-09 17:26:54,243 autoreload 8112 24644 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:26:55,702 autoreload 26060 15664 Watching for file changes with StatReloader
+INFO 2023-12-09 17:27:04,083 views 26060 8760 Index page accessed
+INFO 2023-12-09 17:27:04,150 basehttp 26060 8760 "GET /game/ HTTP/1.1" 200 589
+INFO 2023-12-09 17:31:25,031 autoreload 26060 15664 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:31:26,645 autoreload 25680 7668 Watching for file changes with StatReloader
+INFO 2023-12-09 17:31:39,532 basehttp 25680 7812 "GET /game/about HTTP/1.1" 301 0
+INFO 2023-12-09 17:31:39,539 views 25680 22016 About page accessed
+INFO 2023-12-09 17:31:39,547 basehttp 25680 22016 "GET /game/about/ HTTP/1.1" 200 461
+INFO 2023-12-09 17:32:23,633 autoreload 25680 7668 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:32:24,980 autoreload 17812 12812 Watching for file changes with StatReloader
+INFO 2023-12-09 17:32:25,322 views 17812 21080 About page accessed
+INFO 2023-12-09 17:32:25,332 basehttp 17812 21080 "GET /game/about/ HTTP/1.1" 200 465
+INFO 2023-12-09 17:37:13,519 views 17812 12196 Index page accessed
+INFO 2023-12-09 17:37:13,522 basehttp 17812 12196 "GET /game/ HTTP/1.1" 200 589
+INFO 2023-12-09 17:37:15,826 views 17812 12196 About page accessed
+INFO 2023-12-09 17:37:15,832 basehttp 17812 12196 "GET /game/about/ HTTP/1.1" 200 443
+INFO 2023-12-09 17:39:07,644 views 17812 19692 Index page accessed
+INFO 2023-12-09 17:39:07,648 basehttp 17812 19692 "GET /game/ HTTP/1.1" 200 568
+INFO 2023-12-09 17:52:17,013 autoreload 17812 12812 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\urls.py changed, reloading.
+INFO 2023-12-09 17:52:19,153 autoreload 584 5540 Watching for file changes with StatReloader
+INFO 2023-12-09 17:55:06,383 autoreload 584 5540 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:55:07,991 autoreload 13212 14988 Watching for file changes with StatReloader
+INFO 2023-12-09 17:56:44,207 autoreload 13212 14988 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 17:56:45,648 autoreload 9412 12140 Watching for file changes with StatReloader
+INFO 2023-12-09 18:05:50,732 autoreload 9412 12140 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 18:05:52,100 autoreload 18940 13176 Watching for file changes with StatReloader
+ERROR 2023-12-09 18:06:10,813 log 18940 6700 Internal Server Error: /game/rolls/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py", line 28, in rolls
+    return render(request, 'gameapp/game_result')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gameapp/game_result
+ERROR 2023-12-09 18:06:10,819 basehttp 18940 6700 "GET /game/rolls/5 HTTP/1.1" 500 79817
+INFO 2023-12-09 18:07:26,601 autoreload 18940 13176 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 18:07:27,884 autoreload 16756 6972 Watching for file changes with StatReloader
+ERROR 2023-12-09 18:08:01,716 log 16756 22532 Internal Server Error: /game/rolls/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py", line 29, in rolls
+    return render(request, 'gameapp/game_result', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gameapp/game_result
+ERROR 2023-12-09 18:08:01,722 basehttp 16756 22532 "GET /game/rolls/5 HTTP/1.1" 500 80211
+INFO 2023-12-09 18:09:10,304 autoreload 16756 6972 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 18:09:11,595 autoreload 22672 27228 Watching for file changes with StatReloader
+INFO 2023-12-09 18:09:15,088 basehttp 22672 23524 "GET /game/rolls/5 HTTP/1.1" 200 445
+INFO 2023-12-09 18:16:59,046 autoreload 22672 27228 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 18:17:00,359 autoreload 8484 7788 Watching for file changes with StatReloader
+INFO 2023-12-09 18:17:08,479 basehttp 8484 26892 "GET /game/rolls/5 HTTP/1.1" 200 910
+INFO 2023-12-09 18:17:54,568 basehttp 8484 8124 "GET /game/rolls/5 HTTP/1.1" 200 905
+INFO 2023-12-09 18:18:02,612 basehttp 8484 15312 "GET /game/rolls/2 HTTP/1.1" 200 604
+INFO 2023-12-09 19:07:03,846 autoreload 8484 7788 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 19:07:06,155 autoreload 19536 2696 Watching for file changes with StatReloader
+INFO 2023-12-09 19:11:20,117 autoreload 19536 2696 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 19:11:21,555 autoreload 26000 5856 Watching for file changes with StatReloader
+INFO 2023-12-09 19:14:09,301 autoreload 26000 5856 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 19:14:10,784 autoreload 23724 19132 Watching for file changes with StatReloader
+INFO 2023-12-09 19:14:28,629 autoreload 23724 19132 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\urls.py changed, reloading.
+INFO 2023-12-09 19:14:30,100 autoreload 15324 9440 Watching for file changes with StatReloader
+ERROR 2023-12-09 19:14:45,609 log 15324 10032 Internal Server Error: /game/cubes/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py", line 47, in game_roll
+    path = request.split('/')[0]
+           ^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'split'
+ERROR 2023-12-09 19:14:45,613 basehttp 15324 10032 "GET /game/cubes/5 HTTP/1.1" 500 64931
+INFO 2023-12-09 19:15:49,066 autoreload 15324 9440 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 19:15:50,586 autoreload 26936 7308 Watching for file changes with StatReloader
+INFO 2023-12-09 19:15:55,729 basehttp 26936 26632 "GET /game/cubes/5 HTTP/1.1" 200 398
+INFO 2023-12-09 19:16:09,312 basehttp 26936 10820 "GET /game/hundred/5 HTTP/1.1" 200 404
+INFO 2023-12-09 19:16:15,977 basehttp 26936 10820 "GET /game/hundred/20 HTTP/1.1" 200 896
+INFO 2023-12-09 19:16:30,725 basehttp 26936 27008 "GET /game/headtails/4 HTTP/1.1" 200 402
+INFO 2023-12-09 19:17:02,769 autoreload 26936 7308 C:\Users\obikb\PycharmProjects\Django\seminar\gameapp\views.py changed, reloading.
+INFO 2023-12-09 19:17:04,119 autoreload 3956 5080 Watching for file changes with StatReloader
+INFO 2023-12-09 19:41:20,635 autoreload 3956 5080 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 19:41:22,441 autoreload 18808 16520 Watching for file changes with StatReloader
+INFO 2023-12-09 19:45:18,844 autoreload 18808 16520 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 19:45:20,225 autoreload 12368 13472 Watching for file changes with StatReloader
+INFO 2023-12-09 19:58:26,180 autoreload 12368 13472 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 19:58:27,707 autoreload 20632 16596 Watching for file changes with StatReloader
+INFO 2023-12-09 20:02:56,213 autoreload 20632 16596 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:02:57,714 autoreload 5400 24536 Watching for file changes with StatReloader
+INFO 2023-12-09 20:05:52,728 autoreload 5400 24536 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:05:54,298 autoreload 14452 228 Watching for file changes with StatReloader
+INFO 2023-12-09 20:07:33,076 autoreload 14452 228 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:07:34,453 autoreload 12444 14400 Watching for file changes with StatReloader
+INFO 2023-12-09 20:09:17,715 basehttp 12444 24644 "GET /blog/author HTTP/1.1" 200 340
+INFO 2023-12-09 20:09:29,893 basehttp 12444 18912 "GET /blog/author HTTP/1.1" 200 340
+INFO 2023-12-09 20:10:50,362 autoreload 12444 14400 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:10:51,790 autoreload 14672 12180 Watching for file changes with StatReloader
+ERROR 2023-12-09 20:10:56,761 log 14672 20696 Internal Server Error: /blog/author
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py", line 33, in author
+    autr.save()
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“01.01.1900” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR 2023-12-09 20:10:56,774 basehttp 14672 20696 "GET /blog/author HTTP/1.1" 500 136782
+INFO 2023-12-09 20:11:21,580 autoreload 14672 12180 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:11:22,927 autoreload 19084 15108 Watching for file changes with StatReloader
+ERROR 2023-12-09 20:11:26,956 log 19084 13624 Internal Server Error: /blog/author
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py", line 33, in author
+    autr.save()
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“1900.01.19” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR 2023-12-09 20:11:26,969 basehttp 19084 13624 "GET /blog/author HTTP/1.1" 500 136782
+INFO 2023-12-09 20:11:45,188 autoreload 19084 15108 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:11:46,488 autoreload 24168 12048 Watching for file changes with StatReloader
+INFO 2023-12-09 20:11:50,201 basehttp 24168 6096 "GET /blog/author HTTP/1.1" 200 340
+INFO 2023-12-09 20:18:58,666 autoreload 24168 12048 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:19:00,424 autoreload 20788 13820 Watching for file changes with StatReloader
+ERROR 2023-12-09 20:19:07,850 log 20788 16876 Internal Server Error: /blog/post
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table blogapp_post has no column named add_data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py", line 45, in post
+    post.save()
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table blogapp_post has no column named add_data
+ERROR 2023-12-09 20:19:07,861 basehttp 20788 16876 "GET /blog/post HTTP/1.1" 500 147221
+INFO 2023-12-09 20:20:14,949 autoreload 20788 13820 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:20:16,362 autoreload 14028 9428 Watching for file changes with StatReloader
+INFO 2023-12-09 20:20:20,441 basehttp 14028 18260 "GET /blog/post HTTP/1.1" 200 4
+INFO 2023-12-09 20:21:27,665 autoreload 14028 9428 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:21:29,068 autoreload 2924 25304 Watching for file changes with StatReloader
+INFO 2023-12-09 20:21:29,862 basehttp 2924 19376 "GET /blog/post HTTP/1.1" 200 4
+ERROR 2023-12-09 20:21:49,197 log 2924 8468 Internal Server Error: /blog/post/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: a_post() got an unexpected keyword argument 'id'
+ERROR 2023-12-09 20:21:49,200 basehttp 2924 8468 "GET /blog/post/2 HTTP/1.1" 500 61121
+INFO 2023-12-09 20:22:31,559 autoreload 2924 25304 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\urls.py changed, reloading.
+INFO 2023-12-09 20:22:33,051 autoreload 5804 12352 Watching for file changes with StatReloader
+ERROR 2023-12-09 20:22:33,610 log 5804 20892 Internal Server Error: /blog/post/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py", line 52, in a_post
+    for object in Post.objects:
+TypeError: 'Manager' object is not iterable
+ERROR 2023-12-09 20:22:33,614 basehttp 5804 20892 "GET /blog/post/2 HTTP/1.1" 500 64996
+INFO 2023-12-09 20:25:07,408 autoreload 5804 12352 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:25:08,838 autoreload 14408 21172 Watching for file changes with StatReloader
+INFO 2023-12-09 20:25:09,165 basehttp 14408 13032 "GET /blog/post/2 HTTP/1.1" 200 503
+INFO 2023-12-09 20:27:40,969 autoreload 14408 21172 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:27:42,426 autoreload 26940 12300 Watching for file changes with StatReloader
+INFO 2023-12-09 20:27:49,084 basehttp 26940 13212 "GET /blog/post/2 HTTP/1.1" 200 433
+INFO 2023-12-09 20:28:20,926 autoreload 26940 12300 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:28:22,336 autoreload 19592 23916 Watching for file changes with StatReloader
+INFO 2023-12-09 20:28:22,617 basehttp 19592 15948 "GET /blog/post/2 HTTP/1.1" 200 433
+INFO 2023-12-09 20:28:34,156 basehttp 19592 12612 "GET /blog/post/5 HTTP/1.1" 200 433
+INFO 2023-12-09 20:29:34,190 autoreload 19592 23916 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:29:35,622 autoreload 6264 8888 Watching for file changes with StatReloader
+ERROR 2023-12-09 20:29:39,539 log 6264 1140 Internal Server Error: /blog/post/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py", line 51, in a_post
+    posts = Post.objects.filter(pk=author_id)[:].title
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'title'
+ERROR 2023-12-09 20:29:39,543 basehttp 6264 1140 "GET /blog/post/5 HTTP/1.1" 500 64679
+INFO 2023-12-09 20:29:59,059 autoreload 6264 8888 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:30:00,511 autoreload 26696 26012 Watching for file changes with StatReloader
+INFO 2023-12-09 20:30:00,904 basehttp 26696 21912 "GET /blog/post/5 HTTP/1.1" 200 375
+INFO 2023-12-09 20:34:53,756 autoreload 26696 26012 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:34:55,261 autoreload 7768 17920 Watching for file changes with StatReloader
+INFO 2023-12-09 20:35:01,673 basehttp 7768 19040 "GET /blog/post/5 HTTP/1.1" 200 366
+INFO 2023-12-09 20:35:06,665 basehttp 7768 26676 "GET /blog/post/5 HTTP/1.1" 200 366
+INFO 2023-12-09 20:35:28,296 autoreload 7768 17920 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:35:29,702 autoreload 18772 25764 Watching for file changes with StatReloader
+INFO 2023-12-09 20:35:30,109 basehttp 18772 20544 "GET /blog/post/5 HTTP/1.1" 200 366
+INFO 2023-12-09 20:35:37,119 basehttp 18772 6688 "GET /blog/post/10 HTTP/1.1" 200 366
+INFO 2023-12-09 20:36:44,692 autoreload 18772 25764 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:36:46,329 autoreload 22800 22660 Watching for file changes with StatReloader
+INFO 2023-12-09 20:36:51,225 basehttp 22800 19044 "GET /blog/post HTTP/1.1" 200 4
+INFO 2023-12-09 20:36:55,781 basehttp 22800 17564 "GET /blog/post/10 HTTP/1.1" 200 366
+INFO 2023-12-09 20:36:59,138 basehttp 22800 17564 "GET /blog/post/10 HTTP/1.1" 200 366
+INFO 2023-12-09 20:38:12,371 basehttp 22800 13156 "GET /blog/post/10 HTTP/1.1" 200 364
+INFO 2023-12-09 20:45:05,736 autoreload 22800 22660 C:\Users\obikb\PycharmProjects\Django\seminar\blogapp\views.py changed, reloading.
+INFO 2023-12-09 20:45:07,293 autoreload 1016 11856 Watching for file changes with StatReloader
+INFO 2023-12-09 20:45:08,238 basehttp 1016 27120 "GET /blog/post/10 HTTP/1.1" 200 716
+INFO 2023-12-09 20:45:21,946 basehttp 1016 21216 "GET /blog/post/5 HTTP/1.1" 200 716
+INFO 2023-12-09 21:07:01,713 autoreload 1016 11856 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\urls.py changed, reloading.
+INFO 2023-12-09 21:07:03,169 autoreload 16412 5892 Watching for file changes with StatReloader
+INFO 2023-12-09 21:08:27,816 autoreload 16412 5892 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:08:29,497 autoreload 21160 5684 Watching for file changes with StatReloader
+INFO 2023-12-09 21:09:30,972 autoreload 21160 5684 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:09:32,447 autoreload 12128 25996 Watching for file changes with StatReloader
+INFO 2023-12-09 21:10:56,379 autoreload 12128 25996 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\urls.py changed, reloading.
+INFO 2023-12-09 21:10:57,833 autoreload 9692 21200 Watching for file changes with StatReloader
+ERROR 2023-12-09 21:11:07,008 log 9692 11080 Internal Server Error: /shop/new_order
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 75, in new_order
+    prod = Product.objects.get(pk=i)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+shopapp.models.Product.DoesNotExist: Product matching query does not exist.
+ERROR 2023-12-09 21:11:07,013 basehttp 9692 11080 "GET /shop/new_order HTTP/1.1" 500 74515
+INFO 2023-12-09 21:12:12,376 autoreload 9692 21200 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:12:13,855 autoreload 25052 7612 Watching for file changes with StatReloader
+ERROR 2023-12-09 21:12:18,199 log 25052 26252 Internal Server Error: /shop/new_order
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 75, in new_order
+    prod = Product.objects.get(pk=i)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+shopapp.models.Product.DoesNotExist: Product matching query does not exist.
+ERROR 2023-12-09 21:12:18,207 basehttp 25052 26252 "GET /shop/new_order HTTP/1.1" 500 74512
+INFO 2023-12-09 21:13:32,855 autoreload 25052 7612 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:13:34,238 autoreload 11840 14260 Watching for file changes with StatReloader
+ERROR 2023-12-09 21:13:37,830 log 11840 11684 Internal Server Error: /shop/new_order
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 74, in new_order
+    prod = Product.objects.get(pk=i)
+                                  ^
+NameError: name 'i' is not defined
+ERROR 2023-12-09 21:13:37,834 basehttp 11840 11684 "GET /shop/new_order HTTP/1.1" 500 65123
+ERROR 2023-12-09 21:13:45,688 log 11840 11684 Internal Server Error: /shop/new_order
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 74, in new_order
+    prod = Product.objects.get(pk=i)
+                                  ^
+NameError: name 'i' is not defined
+ERROR 2023-12-09 21:13:45,692 basehttp 11840 11684 "GET /shop/new_order HTTP/1.1" 500 65123
+INFO 2023-12-09 21:14:02,113 autoreload 11840 14260 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:14:03,610 autoreload 25992 5436 Watching for file changes with StatReloader
+INFO 2023-12-09 21:14:04,080 basehttp 25992 8680 "GET /shop/new_order HTTP/1.1" 200 7
+INFO 2023-12-09 21:14:35,105 basehttp 25992 15856 "GET /shop/new_order HTTP/1.1" 200 7
+INFO 2023-12-09 21:14:36,537 basehttp 25992 15856 "GET /shop/new_order HTTP/1.1" 200 7
+INFO 2023-12-09 21:14:45,063 autoreload 25992 5436 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:14:45,878 autoreload 23000 7964 Watching for file changes with StatReloader
+ERROR 2023-12-09 21:14:48,352 log 23000 22036 Internal Server Error: /shop/new_order
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 71, in new_order
+    order_t.save()
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+ERROR 2023-12-09 21:14:48,360 basehttp 23000 22036 "GET /shop/new_order HTTP/1.1" 500 126697
+INFO 2023-12-09 21:15:19,185 autoreload 23000 7964 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 21:15:20,131 autoreload 15528 15128 Watching for file changes with StatReloader
+INFO 2023-12-09 21:15:21,330 basehttp 15528 19912 "GET /shop/new_order HTTP/1.1" 200 7
+INFO 2023-12-09 21:15:22,430 basehttp 15528 19912 "GET /shop/new_order HTTP/1.1" 200 7
+INFO 2023-12-09 21:15:23,134 basehttp 15528 19912 "GET /shop/new_order HTTP/1.1" 200 7
+ERROR 2023-12-09 21:15:42,024 log 15528 12880 Internal Server Error: /shop/order/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-12-09 21:15:42,041 basehttp 15528 12880 "GET /shop/order/1 HTTP/1.1" 500 235781
+ERROR 2023-12-09 21:16:26,893 log 15528 25516 Internal Server Error: /shop/order/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-12-09 21:16:26,899 basehttp 15528 25516 "GET /shop/order/1 HTTP/1.1" 500 235913
+ERROR 2023-12-09 21:16:51,760 log 15528 18712 Internal Server Error: /shop/order/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-12-09 21:16:51,765 basehttp 15528 18712 "GET /shop/order/1 HTTP/1.1" 500 235972
+ERROR 2023-12-09 21:17:34,502 log 15528 10816 Internal Server Error: /shop/order/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-12-09 21:17:34,508 basehttp 15528 10816 "GET /shop/order/1 HTTP/1.1" 500 235986
+INFO 2023-12-09 21:18:13,575 basehttp 15528 15928 "GET /shop/order/1 HTTP/1.1" 200 1742
+INFO 2023-12-09 21:18:27,370 basehttp 15528 13820 "GET /shop/order/2 HTTP/1.1" 200 599
+INFO 2023-12-09 21:20:16,357 basehttp 15528 22180 "GET /shop/order/2 HTTP/1.1" 200 579
+INFO 2023-12-09 21:20:43,779 basehttp 15528 22276 "GET /shop/order/2 HTTP/1.1" 200 579
+ERROR 2023-12-09 21:25:36,012 log 15528 4656 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '().name' from 'order.products_set.all().name'
+ERROR 2023-12-09 21:25:36,019 basehttp 15528 4656 "GET /shop/order/2 HTTP/1.1" 500 188875
+ERROR 2023-12-09 21:32:07,654 log 15528 16508 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'order.products_set.all()'
+ERROR 2023-12-09 21:32:07,661 basehttp 15528 16508 "GET /shop/order/2 HTTP/1.1" 500 198119
+INFO 2023-12-09 21:33:03,319 basehttp 15528 17124 "GET /shop/order/2 HTTP/1.1" 200 534
+INFO 2023-12-09 21:36:09,012 basehttp 15528 15216 "GET /shop/order/2 HTTP/1.1" 200 534
+INFO 2023-12-09 21:39:00,536 basehttp 15528 9740 "GET /shop/order/2 HTTP/1.1" 200 534
+ERROR 2023-12-09 21:44:18,650 log 15528 4756 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(order__id=int_order_id).name' from 'Product.objects.filter(order__id=int_order_id).name'
+ERROR 2023-12-09 21:44:18,657 basehttp 15528 4756 "GET /shop/order/2 HTTP/1.1" 500 189285
+ERROR 2023-12-09 21:52:04,705 log 15528 1528 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-12-09 21:52:04,711 basehttp 15528 1528 "GET /shop/order/2 HTTP/1.1" 500 175319
+ERROR 2023-12-09 21:56:53,506 log 15528 21100 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('order').filter(order__id=order.id)' from 'Product.objects.select_related('order').filter(order__id=order.id)'
+ERROR 2023-12-09 21:56:53,512 basehttp 15528 21100 "GET /shop/order/2 HTTP/1.1" 500 199274
+ERROR 2023-12-09 22:02:55,410 log 15528 12912 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('product').filter(order__id=order.id)' from 'Order.objects.select_related('product').filter(order__id=order.id)'
+ERROR 2023-12-09 22:02:55,417 basehttp 15528 12912 "GET /shop/order/2 HTTP/1.1" 500 199280
+ERROR 2023-12-09 22:04:50,474 log 15528 7648 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'product.order.all()'
+ERROR 2023-12-09 22:04:50,480 basehttp 15528 7648 "GET /shop/order/2 HTTP/1.1" 500 198142
+ERROR 2023-12-09 22:09:07,898 log 15528 22680 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '().filter(id=order.id)' from 'orders.products.all().filter(id=order.id)'
+ERROR 2023-12-09 22:09:07,905 basehttp 15528 22680 "GET /shop/order/2 HTTP/1.1" 500 198572
+ERROR 2023-12-09 22:09:46,847 log 15528 13940 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'orders.products.all()'
+ERROR 2023-12-09 22:09:46,853 basehttp 15528 13940 "GET /shop/order/2 HTTP/1.1" 500 198172
+ERROR 2023-12-09 22:13:29,222 log 15528 13260 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(product__id=int_order_id' from 'Product.objects.filter(product__id=int_order_id'
+ERROR 2023-12-09 22:13:29,228 basehttp 15528 13260 "GET /shop/order/2 HTTP/1.1" 500 198683
+ERROR 2023-12-09 22:14:17,132 log 15528 8884 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(product__id=int_order_id)' from 'Product.objects.filter(product__id=int_order_id)'
+ERROR 2023-12-09 22:14:17,138 basehttp 15528 8884 "GET /shop/order/2 HTTP/1.1" 500 198735
+ERROR 2023-12-09 22:31:55,271 log 15528 6260 Internal Server Error: /shop/order/2
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 85, in client_order
+    return render(request, 'shopapp/cl_order.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(product__id=int_order_id)' from 'Product.objects.filter(product__id=int_order_id)'
+ERROR 2023-12-09 22:31:55,280 basehttp 15528 6260 "GET /shop/order/2 HTTP/1.1" 500 199408
+INFO 2023-12-09 22:33:49,719 basehttp 15528 25796 "GET /shop/order/2 HTTP/1.1" 200 906
+INFO 2023-12-09 22:35:21,737 basehttp 15528 4280 "GET /shop/order/5 HTTP/1.1" 200 788
+INFO 2023-12-09 22:37:15,607 basehttp 15528 24060 "GET /shop/order/5 HTTP/1.1" 200 788
+INFO 2023-12-09 22:38:14,299 basehttp 15528 19632 "GET /shop/order/5 HTTP/1.1" 200 789
+INFO 2023-12-09 22:38:28,531 basehttp 15528 4848 "GET /shop HTTP/1.1" 301 0
+INFO 2023-12-09 22:38:28,536 basehttp 15528 21080 "GET /shop/ HTTP/1.1" 200 59
+INFO 2023-12-09 22:47:36,498 autoreload 15528 15128 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 22:47:40,082 autoreload 11384 15004 Watching for file changes with StatReloader
+INFO 2023-12-09 22:47:46,509 basehttp 11384 780 "GET /shop/product HTTP/1.1" 200 7
+ERROR 2023-12-09 22:47:55,498 log 11384 20004 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 92, in client_product
+    for product in orders.products.all:
+                   ^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+ERROR 2023-12-09 22:47:55,502 basehttp 11384 20004 "GET /shop/product/1 HTTP/1.1" 500 68622
+INFO 2023-12-09 22:48:43,197 autoreload 11384 15004 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 22:48:43,993 autoreload 18808 19280 Watching for file changes with StatReloader
+ERROR 2023-12-09 22:48:51,040 log 18808 12856 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 93, in client_product
+    for product in order.products.all:
+TypeError: 'method' object is not iterable
+ERROR 2023-12-09 22:48:51,042 basehttp 18808 12856 "GET /shop/product/1 HTTP/1.1" 500 68901
+INFO 2023-12-09 22:49:50,839 autoreload 18808 19280 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 22:49:51,647 autoreload 19412 27636 Watching for file changes with StatReloader
+ERROR 2023-12-09 22:49:51,938 log 19412 22464 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 95, in client_product
+    set_prod.add(product)
+    ^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'add'
+ERROR 2023-12-09 22:49:51,940 basehttp 19412 22464 "GET /shop/product/1 HTTP/1.1" 500 69378
+INFO 2023-12-09 22:50:19,600 autoreload 19412 27636 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 22:50:20,443 autoreload 27544 26120 Watching for file changes with StatReloader
+INFO 2023-12-09 22:50:21,097 basehttp 27544 10220 "GET /shop/product/1 HTTP/1.1" 200 336
+INFO 2023-12-09 22:51:55,197 autoreload 27544 26120 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\urls.py changed, reloading.
+INFO 2023-12-09 22:51:56,032 autoreload 25396 1384 Watching for file changes with StatReloader
+INFO 2023-12-09 22:52:06,168 basehttp 25396 26656 "GET /shop/client_product/1 HTTP/1.1" 200 336
+INFO 2023-12-09 22:52:14,451 basehttp 25396 21468 "GET /shop/client_order/1 HTTP/1.1" 200 3389
+INFO 2023-12-09 22:52:53,178 basehttp 25396 16176 "GET /shop/client_product/5 HTTP/1.1" 200 336
+INFO 2023-12-09 22:54:22,536 basehttp 25396 21620 "GET /shop/client_product/5 HTTP/1.1" 200 969
+INFO 2023-12-09 22:54:55,569 basehttp 25396 12156 "GET /shop/client_product/5 HTTP/1.1" 200 641
+INFO 2023-12-09 22:59:14,201 autoreload 25396 1384 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 22:59:15,175 autoreload 21552 23988 Watching for file changes with StatReloader
+INFO 2023-12-09 23:04:18,675 autoreload 21552 23988 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:04:19,479 autoreload 20560 26260 Watching for file changes with StatReloader
+INFO 2023-12-09 23:08:57,866 autoreload 20560 26260 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:08:58,674 autoreload 17900 25676 Watching for file changes with StatReloader
+ERROR 2023-12-09 23:10:06,843 log 17900 6244 Internal Server Error: /shop/client_product/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 96, in client_product
+    delta = timedelta(datetime.now(), order.date_ordered)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta seconds component: datetime.datetime
+ERROR 2023-12-09 23:10:06,846 basehttp 17900 6244 "GET /shop/client_product/5 HTTP/1.1" 500 67401
+INFO 2023-12-09 23:12:24,628 autoreload 17900 25676 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:12:25,946 autoreload 20088 6336 Watching for file changes with StatReloader
+ERROR 2023-12-09 23:12:45,425 log 20088 14200 Internal Server Error: /shop/client_product/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 96, in client_product
+    delta = datetime.now().date() - order.date_ordered
+            ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'datetime.datetime'
+ERROR 2023-12-09 23:12:45,427 basehttp 20088 14200 "GET /shop/client_product/5 HTTP/1.1" 500 67478
+INFO 2023-12-09 23:13:16,099 autoreload 20088 6336 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:13:16,995 autoreload 14112 22240 Watching for file changes with StatReloader
+ERROR 2023-12-09 23:13:17,372 log 14112 21276 Internal Server Error: /shop/client_product/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 96, in client_product
+    delta = datetime.now().datetime() - order.date_ordered
+            ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'datetime.datetime' object has no attribute 'datetime'
+ERROR 2023-12-09 23:13:17,375 basehttp 14112 21276 "GET /shop/client_product/5 HTTP/1.1" 500 67398
+INFO 2023-12-09 23:17:15,399 autoreload 14112 22240 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:17:16,724 autoreload 18492 14444 Watching for file changes with StatReloader
+ERROR 2023-12-09 23:17:18,462 log 18492 21680 Internal Server Error: /shop/client_product/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 96, in client_product
+    delta = datetime.now() - order.date_ordered
+            ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2023-12-09 23:17:18,465 basehttp 18492 21680 "GET /shop/client_product/5 HTTP/1.1" 500 67329
+INFO 2023-12-09 23:20:22,824 autoreload 18492 14444 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:20:23,931 autoreload 13592 20148 Watching for file changes with StatReloader
+ERROR 2023-12-09 23:20:26,598 log 13592 10776 Internal Server Error: /shop/client_product/5
+Traceback (most recent call last):
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py", line 97, in client_product
+    delta = now - order.date_ordered
+            ~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2023-12-09 23:20:26,601 basehttp 13592 10776 "GET /shop/client_product/5 HTTP/1.1" 500 67466
+INFO 2023-12-09 23:21:57,182 autoreload 13592 20148 C:\Users\obikb\PycharmProjects\Django\seminar\shopapp\views.py changed, reloading.
+INFO 2023-12-09 23:21:58,026 autoreload 8360 10800 Watching for file changes with StatReloader
+INFO 2023-12-09 23:22:05,722 basehttp 8360 14916 "GET /shop/client_product/5 HTTP/1.1" 200 1069
+INFO 2023-12-09 23:24:41,830 basehttp 8360 8100 "GET /shop/client_product/5 HTTP/1.1" 200 1068

@@ -1,0 +1,16 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %} Заказы {{name.name}} {% endblock %}
+
+{% block content%}
+    <h1>Ваши заказы</h1>
+    {% for order in orders %}
+    <ul> Заказ номер {{order.id}}:
+        {% for product in order.products.all %}
+        <li>{{product.name}}</li>
+        {%endfor%}
+    </ul>
+    {%endfor%}
+    <br>
+    <br><a href='/shop'>На главную</a>
+{% endblock%}

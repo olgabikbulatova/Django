@@ -1,0 +1,27 @@
+{% extends 'gameapp/base.html' %}
+
+{% block title %} итоги игры {% endblock %}
+
+{% block content%}
+    <h1>Количество бросков {{roll}}</h1>
+    <p> Вот итоги игр:</p>
+    <ul> Орел и решка:
+        {% for item in h_t %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <ul> Кости:
+        {% for item in cbs %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <ul> Сотня:
+        {% for item in hnd %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <br><a href='/game'>На главную</a>
+{% endblock%}

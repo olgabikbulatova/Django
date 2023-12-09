@@ -1,0 +1,15 @@
+{% extends 'gameapp/base.html' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content%}
+    <h1>Привет, {{name}}</h1>
+    <p>в этом разделе будут храниться игры.</p>
+    <p> в некоторые из них можно поиграть уже сейчас:</p>
+    <ul>
+        <li><a href='headtails'>Орел и решка</a></li>
+        <li><a href='cubes'>Кости</a></li>
+        <li><a href='hundred'>Отгадай число</a></li>
+        </ul>
+    <br><a href='about'>подробнее обо мне.</a>
+{% endblock%}

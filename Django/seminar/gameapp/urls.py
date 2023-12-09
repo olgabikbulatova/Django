@@ -16,14 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import index, head_tails, cubes, hundred, about, headtails_values
+from .views import index, head_tails, cubes, hundred, about, headtails_values, rolls, game_roll
 
 
 urlpatterns = [
     path('', index, name='index'),
-    path('headtails/', head_tails, name='head_tails'),
-    path('headtails_values/', headtails_values, name='headtails_values'),
-    path('cubes/', cubes, name='cubes'),
+    path('headtails', head_tails, name='head_tails'),
+    path('headtails_values', headtails_values, name='headtails_values'),
+    path('cubes', cubes, name='cubes'),
     path('hundred/', hundred, name='hundred'),
     path('about/', about, name='about'),
+    path('rolls/<int:roll>', rolls, name='rolls'),
+    path('headtails/<int:roll>', game_roll, name='ht_roll'),
+    path('cubes/<int:roll>', game_roll, name='ht_roll'),
+    path('hundred/<int:roll>', game_roll, name='ht_roll'),
 ]
