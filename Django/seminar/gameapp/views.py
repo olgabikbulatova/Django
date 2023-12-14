@@ -5,15 +5,24 @@ from django.http import HttpResponse
 from random import randint, choice
 import logging
 from .models import Headtails
+from .forms import GameForm
 
 
 logger = logging.getLogger(__name__)
 
 
 def index(request):
-    context = {'name': 'olga'}
-    logger.info('Index page accessed')
-    return render(request, "gameapp/index.html", context)
+    if request.method == 'POST':
+        form = GameForm(request.POST)
+        if form.is_valid():
+            gamename = form.cleaned_data['gamename']
+            roll = form.cleaned_data['roll']
+            return game_roll(request, gamename,roll)
+        logger.info(f'Получили {gamename=}, {roll=}.')
+    else:
+        form = GameForm()
+        context = {'name': 'olga','form': form}
+        return render(request, "gameapp/index.html", context)
 
 
 def about(request):
@@ -43,14 +52,13 @@ def head_tails(request):
     return HttpResponse(f'Поздравляю! у вас {side}')
 
 
-def game_roll(request, roll):
-    path = str(request).split('/')[2]
-    if path == 'headtails':
+def game_roll(request, game, roll):
+    if game == 'headtails':
         name = 'орел и решка'
         game_lst = []
         for i in range(roll):
             game_lst.append(choice(["Head","Tail"]))
-    elif path == 'cubes':
+    elif game == 'cubes':
         name = 'кости'
         game_lst = []
         for i in range(roll):

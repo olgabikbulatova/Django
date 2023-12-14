@@ -27,7 +27,5 @@ urlpatterns = [
     path('hundred/', hundred, name='hundred'),
     path('about/', about, name='about'),
     path('rolls/<int:roll>', rolls, name='rolls'),
-    path('headtails/<int:roll>', game_roll, name='ht_roll'),
-    path('cubes/<int:roll>', game_roll, name='ht_roll'),
-    path('hundred/<int:roll>', game_roll, name='ht_roll'),
+    path('<str:game>/<int:roll>', game_roll, name='game_roll'),
 ]

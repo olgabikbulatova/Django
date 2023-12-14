@@ -5,7 +5,7 @@ from django.http import HttpResponse
 from random import randint, choice
 import logging
 from .models import Author, Post
-
+from .forms import AuthorForm, PostForm
 
 logger = logging.getLogger(__name__)
 
@@ -20,30 +20,48 @@ def index(request):
 
 
 def author(request):
-    lst = []
-    for i in range(10):
-        autr = Author(
-            name=f'AAA {i}',
-            lastname=f'AAA {i}',
-            email=f'{i}@aaa.ru',
-            bio=f'AAA {i}',
-            bday='1900-01-19'
-        )
-        lst.append(autr)
-        autr.save()
-    return HttpResponse(lst)
+    if request.method == 'POST':
+        form = AuthorForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            lastname = form.cleaned_data['lastname']
+            email = form.cleaned_data['email']
+            bio = form.cleaned_data['bio']
+            bday = form.cleaned_data['bday']
+            new_author = Author(
+                name=name,
+                lastname=lastname,
+                email=email,
+                bio=bio,
+                bday=bday
+            )
+            new_author.save()
+            return HttpResponse(f'new author {name} {lastname} added')
+    else:
+        form = AuthorForm()
+        authors = Author.objects.all()
+        context = {'authors': authors, 'form': form}
+        return render(request, 'blogapp/author.html', context)
 
 
 def post(request):
-    for i in range(10):
-        for y in range(5):
-            post = Post(
-                title=f'aaa{y+1}',
-                content=f'xxxx xxxx{y}',
-                author_id=i + 1,
-            )
-            post.save()
-    return HttpResponse('post')
+    if request.method == 'POST':
+        form = PostForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data['title']
+            content = form.cleaned_data['content']
+            author = form.cleaned_data['author']
+            new_post = Post(
+                title=title,
+                content=content,
+                author=author)
+            new_post.save()
+            return HttpResponse(f'new post {title} {author} added')
+    else:
+        form = PostForm()
+        last_posts = Post.objects.all().order_by('-id')[:5]
+        context = {'posts': last_posts, 'form': form}
+        return render(request, 'blogapp/post.html', context)
 
 
 def a_post(request, author_id):

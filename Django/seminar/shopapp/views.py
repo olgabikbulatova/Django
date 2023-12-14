@@ -1,3 +1,4 @@
+from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
 
 # Create your views here.
@@ -10,6 +11,7 @@ from django.utils import timezone
 from unicodedata import decimal
 
 from .models import Client, Product, Order
+from .forms import ProdEditForm
 
 logger = logging.getLogger(__name__)
 
@@ -62,6 +64,32 @@ def product(request):
         product_t = Product(name=f'aaa{i}', description=f'bbbbbb{i}', price=100.000, quantity=f'1{i}')
         product_t.save()
     return HttpResponse('product')
+
+
+def update_product(request, id):
+    ed_product = Product.objects.get(pk=id)
+    if ed_product is not None:
+        if request.method == 'POST':
+            form = ProdEditForm(request.POST, request.FILES)
+            if form.is_valid():
+                name = form.cleaned_data['name']
+                description = form.cleaned_data['description']
+                price = form.cleaned_data['price']
+                quantity = form.cleaned_data['quantity']
+                image = form.cleaned_data['image']
+                fs = FileSystemStorage()
+                fs.save(image.name, image)
+                ed_product.name=name
+                ed_product.description=description
+                ed_product.price=price
+                ed_product.quantity=quantity
+                ed_product.image=image
+                ed_product.save()
+                return HttpResponse(f'new data')
+        else:
+            form = ProdEditForm(instance=ed_product)
+            context = {'form': form, 'product': ed_product}
+            return render(request, "shopapp/prodedit.html", context)
 
 
 def order(request):

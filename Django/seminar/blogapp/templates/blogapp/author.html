@@ -1,0 +1,18 @@
+{% extends 'blogapp/base.html' %}
+{% block title%} Авторы {%endblock%}
+
+{%block content%}
+    <h1>Наши авторы</h1>
+     <ul> На сайте есть следующие авторы:
+        {% for author in authors %}
+            <li>{{ author.name }} {{ author.lastname }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <h2>Добавить нового автора</h2>
+        <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Отправить">
+        </form>
+{%endblock%}
