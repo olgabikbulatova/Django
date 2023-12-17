@@ -24,7 +24,7 @@ class Product(models.Model):
     image = models.ImageField()
 
     def __str__(self):
-        return f'Product: {self.name}, price:{self.price}'
+        return f'Product: {self.name}, price: {self.price}'
 
 
 class Order(models.Model):

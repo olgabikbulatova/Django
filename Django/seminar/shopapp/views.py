@@ -79,11 +79,11 @@ def update_product(request, id):
                 image = form.cleaned_data['image']
                 fs = FileSystemStorage()
                 fs.save(image.name, image)
-                ed_product.name=name
-                ed_product.description=description
-                ed_product.price=price
-                ed_product.quantity=quantity
-                ed_product.image=image
+                ed_product.name = name
+                ed_product.description = description
+                ed_product.price = price
+                ed_product.quantity = quantity
+                ed_product.image = image
                 ed_product.save()
                 return HttpResponse(f'new data')
         else:
