@@ -26,6 +26,10 @@ class Product(models.Model):
     def __str__(self):
         return f'Product: {self.name}, price: {self.price}'
 
+    @property
+    def total_quantity(self):
+        return sum(product.quantity for product in Product.objects.all())
+
 
 class Order(models.Model):
     customer = models.ForeignKey(Client, on_delete=models.CASCADE)

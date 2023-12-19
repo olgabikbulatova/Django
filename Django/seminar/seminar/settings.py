@@ -21,13 +21,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-e-9*5wsw3mfs9j5ud-em07z+&e)%!g2=49@t1!o4%s=++jky-y'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
+    '127.0.0.1',
+    'orlett.pythonanywhere.com',
 ]
 
 
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'gameapp',
     'blogapp',
     'shopapp',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +55,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
 ]
 
 ROOT_URLCONF = 'seminar.urls'
@@ -81,10 +85,18 @@ WSGI_APPLICATION = 'seminar.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'orlett$default',
+        'USER': 'orlett',
+        'PASSWORD': os.getenv('22052018marat'),
+        'HOST': 'orlett.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
     }
 }
+
 
 
 # Password validation
@@ -166,6 +178,9 @@ LOGGING = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-
+INTERNAL_IPS = ['127.0.0.1',]
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+STATIC_ROOT = BASE_DIR / 'static/'
 
 

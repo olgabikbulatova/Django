@@ -1,6 +1,6 @@
 from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render
-
+from django.db.models import Sum
 # Create your views here.
 from django.http import HttpResponse
 from random import randint, choice
@@ -90,6 +90,33 @@ def update_product(request, id):
             form = ProdEditForm(instance=ed_product)
             context = {'form': form, 'product': ed_product}
             return render(request, "shopapp/prodedit.html", context)
+
+
+def total_in_view(request):
+    products = Product.objects.all()
+    total = sum(product.quantity for product in products)
+    context = {
+        'title': 'Общее количество посчитано в представлении',
+        'total': total,
+    }
+    return render(request, 'shopapp/total_count.html', context)
+
+
+def total_in_db(request):
+    total = Product.objects.aggregate(Sum('quantity'))
+    context = {
+        'title': 'Общее количество посчитано в базе данных',
+        'total': total,
+    }
+    return render(request, 'shopapp/total_count.html', context)
+
+
+def total_in_template(request):
+    context = {
+        'title': 'Общее количество посчитано в шаблоне',
+        'products': Product,
+    }
+    return render(request, 'shopapp/total_count.html', context)
 
 
 def order(request):
