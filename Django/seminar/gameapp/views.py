@@ -40,7 +40,7 @@ def rolls(request, roll):
     for i in range(roll):
         h_t.append(choice(["Head","Tail"]))
         cbs.append(randint(1,6))
-        hnd.append(randint(0,100))
+        hnd.append(randint(0,30))
     context = {'roll': roll, 'h_t': h_t, 'cbs': cbs, 'hnd': hnd}
     return render(request, 'gameapp/game_result.html', context)
 
