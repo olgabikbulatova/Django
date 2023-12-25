@@ -1,7 +1,7 @@
 {% extends 'blogapp/base.html'%}
 {% block title %} Cтатьи {{name.name}}{% endblock %}
 {% block content %}
-     <h1>Статьи автора {{name.name}}</h1>
+     <h1>Статьи автора {{name.name}} {{name.lastname}}</h1>
     <ul> Автор написал следующие статьи:
         {% for post in posts %}
             <li>{{ post.title }}</li>
