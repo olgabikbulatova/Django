@@ -26,7 +26,7 @@ def index(request):
 
 
 def about(request):
-    my_list = ['apple', 'banana', 'orange', 'jjjjj']
+    my_list = ['apple', 'banana', 'orange', 'jjjjj00000']
     name = 'olga'
     context = {'my_list': my_list, 'name': name}
     logger.info('About page accessed')
