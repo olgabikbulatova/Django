@@ -7,7 +7,7 @@ class AuthorForm(forms.Form):
     name = forms.CharField(max_length=100,
                            widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Введите имя'}))
     lastname = forms.CharField(max_length=100, widget=forms.TextInput(
-        attrs={'class': 'form-control', 'placeholder': 'Введите фамилию'}))
+        attrs={'class': 'form-control', 'placeholder': 'Введите фамилию автора блаблабла'}))
     email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'user@mail.ru'}))
     bio = forms.CharField(max_length=1000, widget=forms.Textarea(attrs={'class': 'form-control'}))
     bday = (forms.DateField(initial=datetime.date.today,
