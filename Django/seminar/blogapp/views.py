@@ -56,7 +56,7 @@ def post(request):
                 content=content,
                 author=author)
             new_post.save()
-            return HttpResponse(f'new post {title} added')
+            return HttpResponse(f'new post {title} {author} added')
     else:
         form = PostForm()
         last_posts = Post.objects.all().order_by('-id')[:3]
