@@ -36,7 +36,7 @@ def author(request):
                 bday=bday
             )
             new_author.save()
-            return HttpResponse(f'new author {name} {lastname} added')
+            return HttpResponse(f'new author {name} {lastname} {bday} added')
     else:
         form = AuthorForm()
         authors = Author.objects.all()
