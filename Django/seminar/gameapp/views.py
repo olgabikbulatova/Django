@@ -49,7 +49,7 @@ def head_tails(request):
     side = choice(["Head","Tail"])
     coin = Headtails(result=side)
     coin.save()
-    return HttpResponse(f'Поздравляю! у вас {side}')
+    return HttpResponse(f'Поздравляю! у вас 77777 {side}')
 
 
 def game_roll(request, game, roll):
