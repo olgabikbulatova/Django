@@ -56,10 +56,10 @@ def post(request):
                 content=content,
                 author=author)
             new_post.save()
-            return HttpResponse(f'new post {title} added')
+            return HttpResponse(f'new post {title} {author} added')
     else:
         form = PostForm()
-        last_posts = Post.objects.all().order_by('-id')[:3]
+        last_posts = Post.objects.all().order_by('-id')[:5]
         context = {'posts': last_posts, 'form': form}
         return render(request, 'blogapp/post.html', context)
 

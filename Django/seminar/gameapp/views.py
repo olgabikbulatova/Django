@@ -18,7 +18,7 @@ def index(request):
             gamename = form.cleaned_data['gamename']
             roll = form.cleaned_data['roll']
             return game_roll(request, gamename,roll)
-        logger.info(f'Получили {gamename=}, {roll=}.')
+        logger.info(f'Получили dhgjakldagasg {gamename=}, {roll=}.')
     else:
         form = GameForm()
         context = {'name': 'olga','form': form}
